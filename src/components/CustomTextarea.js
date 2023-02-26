@@ -42,11 +42,11 @@ function CustomTextarea({tableStoreJSON, setTableStoreJSON, setTableStoreValues,
 			<textarea value={tableStoreJSON} onChange={e => setStoreJSONValue(e.currentTarget.value)}/>
 
 			<div className="CustomTextarea_button">
-				<button onClick={handleClick}>{ buttonState === 'load' ? 'Загрузить' : 'Выгрузить' }</button>
+				<button onClick={handleClick}>{ buttonState }</button>
 			</div>
 
 			{!isJSON &&
-				<div className="CustomTextarea_error">Неверный формат</div>
+				<div className="CustomTextarea_error">Invalid data format</div>
 			}
 		</div>
 	);
