@@ -1,0 +1,5 @@
+.CustomTextarea{ display: flex; flex-wrap: wrap; }
+.CustomTextarea textarea{ min-width: 300px; flex-grow: 1; }
+.CustomTextarea_button{ min-width: 150px; display: flex; }
+.CustomTextarea_button button{ background-color: #1677ff; border: none; width: 100%; height: 100%; color: #fff; font-size: 14px; }
+.CustomTextarea_error{ color: red; width: 100%; }

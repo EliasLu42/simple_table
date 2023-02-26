@@ -1,0 +1,9 @@
+.CustomTable{ width: 100%; display: flex; align-items: center; justify-content: center; }
+.CustomTable tbody input{ border: none; }
+
+.CustomTable tbody tr:hover{ background-color: #eaeaea; }
+.CustomTable tbody tr,
+.CustomTable tbody input{ background: transparent; padding: 5px; }
+
+.CustomTable tbody td{ border: solid 1px; }
+.CustomTable tbody input:focus-visible{ outline: none; }
